@@ -1,0 +1,62 @@
+@import "./variables";
+.plan {
+    background-image: url(../img/bg16.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+        &__item {
+            padding: 35px 60px;
+            border: 3px solid transparent;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
+            transition: all 0.5s;
+            border-image: 100 round;
+            h3 {
+                font-size: 2rem;
+                color: $textSecondColor;
+                font-weight: 700;
+            }
+            img {
+                width: 51%;
+            }
+            p {
+                font-size: 18px;
+                color: $textSecondColor;
+                font-weight: 600;
+                span {
+                    color: #f8ae56;
+                    font-size: 50px;
+                    font-weight: 800;
+                }
+            }
+            ul {
+                text-align: left;
+                padding: 15px 0;
+                border-top: 1px solid #e1e1f0;
+                li {
+                    padding: 5px 0;
+                    i {
+                        font-size: 12px;
+                        width: 26px;
+                        height: 26px;
+                        line-height: 26px;
+                        text-align: center;
+                        background-color: #feeff3;
+                        color: $textPrimaryColor;
+                        border-radius: 50%;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            &:hover {
+                border-image: url(../img/br.png) 1 round;
+            }
+        }
+    }
+}

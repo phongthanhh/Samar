@@ -1,0 +1,33 @@
+.services {
+    padding-bottom: 0;
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: top center;
+    text-align: center;
+    &__content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 40px;
+    }
+    &__item {
+        border-radius: 0.5rem;
+        background: #fff;
+        box-shadow: 0 0 60px 0 rgb(0 0 0 / 10%);
+        padding: 30px 45px;
+        transform: translateY(0);
+        transition: all 0.5s;
+        &:hover {
+            transform: translateY(-20px);
+        }
+        img {
+            width: 80%;
+        }
+        h3 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #262626;
+            margin: 15px 0;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+@import "./variables";
+.number {
+    background-image: url(../img/bg14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0 50px;
+    text-align: center;
+    &__content {
+        display: flex;
+        &__item {
+            width: 25%;
+            p:first-of-type {
+                font-size: 65px;
+                font-weight: 800;
+                color: $textPrimaryColor;
+                line-height: 1;
+            }
+            p:last-of-type {
+                color: $textMain;
+                font-size: 18px;
+            }
+            i {
+                font-size: 45px;
+                background-image: $bgImgMain;
+                background-size: 200%;
+                color: #fff;
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                display: inline-block;
+                border-radius: 50%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
