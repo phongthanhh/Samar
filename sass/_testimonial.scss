@@ -90,11 +90,11 @@
     &::before {
         content: "";
         top: 0;
-        left: 0;
+        left: -2px;
         position: absolute;
         background-image: url(../img/pattern12.png);
-        width: 100%;
-        height: 100%;
+        width: 107%;
+        height: 101%;
         background-position: bottom;
         background-size: contain;
         transition: all 1s;
@@ -170,3 +170,7 @@
 .swiper-pagination-bullet-active {
     background: $textPrimaryColor;
 }
+
+// width: 111%;
+// height: 102%;
+// left: -3px;
