@@ -1,5 +1,5 @@
-@import "./variables";
-@import "./mixin";
+@import "../helper/variables";
+@import "../helper/mixin";
 header {
     position: absolute;
     top: 0;

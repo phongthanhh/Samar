@@ -1,4 +1,4 @@
-@import "./variables";
+@import "../helper/variables";
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ a {
 }
 
 button {
-    a cursor: pointer;
+    cursor: pointer;
 }
 
 .btn-gradient {

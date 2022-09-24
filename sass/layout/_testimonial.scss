@@ -1,4 +1,5 @@
-@import "./variables";
+@import "../helper/variables";
+@import "../helper/mixin";
 .testimonial {
     text-align: center;
     background-image: url(../img/bg17.png);

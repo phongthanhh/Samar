@@ -1,4 +1,5 @@
-@import "./variables";
+@import "../helper/variables";
+@import "../helper/mixin";
 .plan {
     background-image: url(../img/bg16.png);
     background-size: cover;

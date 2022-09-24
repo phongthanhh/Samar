@@ -1,4 +1,5 @@
-@import "./variables";
+@import "../helper/variables";
+@import "../helper/mixin";
 footer {
     background-image: url(../img/bg4.png);
     display: block;

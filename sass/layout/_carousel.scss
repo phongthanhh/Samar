@@ -1,5 +1,5 @@
-@import "./variables";
-@import "./mixin";
+@import "../helper/variables";
+@import "../helper/mixin";
 .carousel {
     padding-top: 180px;
     overflow: hidden;

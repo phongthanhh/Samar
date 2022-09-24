@@ -1,4 +1,5 @@
-@import"./variables";
+@import "../helper/variables";
+@import "../helper/mixin";
 .portfolio {
     background-image: url(../img/bg17.png);
     background-size: cover;
